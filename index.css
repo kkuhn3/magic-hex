@@ -1,0 +1,14 @@
+#canvas {
+	width: 920px;
+	height: 600px;
+}
+
+div {
+	text-align: justify;
+	font-size: 30px;
+}
+
+button {
+	width: 120px;
+	font-size: 30px;
+}

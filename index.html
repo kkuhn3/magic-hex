@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Magic Hex</title>
+		<script src="index.js"></script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+
+		<canvas id="canvas" width=1000 height=1000></canvas>
+		<div>
+			Drag and Drop the tiles to move 'em.
+		</div>
+		<div>
+			Goal is to have each edge add up to 38.
+		</div>
+		<button id="reset" onclick="populateGrid();redraw();">Reset</button>
+		<button id="shuffle" onclick="shuffle(gridArray);redraw();">Shuffle</button>
+		<button id="solve" onclick="solve();redraw();">Solve</button>
+	</body>
+	<script>
+		init();
+		populateGrid();
+		redraw();
+	</script>
+</html>
